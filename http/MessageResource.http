@@ -1,0 +1,21 @@
+GET http://localhost:8080/poc-javaee-spring-data/api/message
+
+###
+
+GET http://localhost:8080/poc-javaee-spring-data/api/message/count
+
+###
+
+POST http://localhost:8080/poc-javaee-spring-data/api/message?text=Hello!
+
+###
+
+POST http://localhost:8080/poc-javaee-spring-data/api/message?text=crash
+
+###
+
+POST http://localhost:8080/poc-javaee-spring-data/api/message
+
+###
+
+POST http://localhost:8080/poc-javaee-spring-data/api/message?text=
